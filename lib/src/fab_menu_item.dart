@@ -96,6 +96,7 @@ class FabMenuMiniItemWidget extends StatelessWidget {
                   backgroundColor: fabColor,
                   tooltip: 'Increment',
                   child: icon,
+                  heroTag: "$index",
                   onPressed: onPressed),
             )
           ],
